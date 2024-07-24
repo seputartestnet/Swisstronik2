@@ -1,47 +1,32 @@
 # Swisstronik Tesnet Techinal Task 2
 
-link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
+Ini Adalah Tutorial Yang Sudah Ada Dari Berbagai Sumber Dan Kemudian Saya Ringkas Dan Edit Agar Lebih Mudah Dipahami.
 
-Feel free donate to my EVM address
+link Untuk Misi Task 2 Disini : [Click!](https://www.swisstronik.com/testnet2/dashboard)
 
-EVM :
+## Langkah Demi Langkah Yang Perlu Dilakukan
 
-```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
-```
-
-## Steps
-
-### 1. Clone Repository
+### 1. Copy Paste Alamat Di Bawah ini Di Gitpod
 
 ```bash
-git clone https://github.com/Mnuralim/swisstronik-erc20-mint-token.git
+git clone https://github.com/seputartestnet/Swisstronik_incentivized_Task2
 ```
 
 ```
 cd swisstronik-erc20-mint-token
 ```
 
-### 2. Install Dependency
-
-```bash
-npm install
-```
-
-### 3. Set .env File
-
-create .env file in root project
+### 2. Buat File Baru Dengan Nama .env Lalu Copas Teks Di Bawah Beserta Masukkan Private Wallet Kalian
 
 ```bash
 PRIVATE_KEY="your private key"
 ```
 
-### 4. Create Smart Contract
+### 3. Create Kontrak Pintar
 
-- Open contract folder
-- Create Token.sol file
-- Copy this code and paste there
-- Feel free to modify token name and token symbol
+- Buka Folder Bernama ( contract )
+- Buka Lagi File Bernama ( Token.sol )
+- Kalian Bisa Ubah Nama Token,Symbol Token, Suplay Token Sesuai Keinginan Kalian
 
 ```
 // SPDX-License-Identifier: MIT
@@ -50,63 +35,57 @@ pragma solidity ^0.8.20;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract TestToken is ERC20 {
-    constructor()ERC20("IzzyToken","IZZY"){}
+    constructor()ERC20("Percobaan","PRC"){}
 
     function mint1000tokens() public {
-        _mint(msg.sender,1000*10**18);
+        _mint(msg.sender,1000000000*10**18);
     }
 
-    function burn1000tokens() public{
-        _burn(msg.sender,1000*10**18);
+    function burn1000000000tokens() public{
+        _burn(msg.sender,1000000000*10**18);
     }
 
 }
 ```
 
-### 5. Compile Smart Contract
+### 4. Compile Kontrak Pintar
 
 ```bash
 npm run compile
 ```
 
-### 6. Deploy Smart Contract
+### 5. Deploy Kontrak Pintar
 
 ```bash
 npm run deploy
 ```
 
-### 7. Mint Token
+### 6. Mint Token
 
 ```bash
 npm run mint
 ```
 
-### 8. Check Supply
+### 7. Kalian Bisa Check Supply Token Kalian
 
 ```bash
 npm run check-supply
 ```
 
-### 9. Check Balance
+### 8. Kalian Bisa Check Balance Token Kalian
 
 ```bash
 npm run balance-of
 ```
 
-### 10. Tranfer Token
+### 9. Tranfer Token
 
 ```bash
 npm run transfer
 ```
 
-### 11. Finsihed
+### 10. Penyelesaian
 
-- Open the deployed-adddress.ts (location in utils folder)
-- Copy the address and paste the address in testnet dashboard
-- push this project to your github and paste your repository link in testnet dashboard
-
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
-//0x37401D115bC52bBdaa59Df7f7e021523b020F98f
+- Buka Gitpod Dan Pilih Menu deployed-adddress.ts
+- Silahkan Copas Misi Yang Sudah Di Kerjakan Ke [Click!](https://www.swisstronik.com/testnet2/dashboard)
+- Perhatian, Tolong Teliti Terlebih Dahulu Sebelum Copas Di Menu Misi. Terimakasih Dan Semoga Bermanfaat
