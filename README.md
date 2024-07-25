@@ -1,6 +1,7 @@
 # Swisstronik Tesnet Techinal Task 2
 
-Ini Adalah Tutorial Yang Sudah Ada Dari Berbagai Sumber Dan Kemudian Saya Ringkas Dan Edit Agar Lebih Mudah Dipahami.
+Sebelumnya Saya Ingatkan Untuk Menggunakan New Wallet, Terserah Masing - Masing, ini Hanya Saran.
+Tutorial Yang Saya Berikan Adalah Kumpulan Dari Berbagai Sumber Yang Sudah Saya Rangkum Agar Lebih Mudah Di Pahami Bagi Mereka Yang Mau Mengerjakan ( DYOR )
 
 link Untuk Misi Task 2 Disini : [Click!](https://www.swisstronik.com/testnet2/dashboard)
 
