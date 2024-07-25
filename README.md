@@ -12,7 +12,7 @@ link Untuk Misi Task 2 Disini : [Click!](https://www.swisstronik.com/testnet2/da
 ### 1. Copy Paste Alamat Di Bawah ini Di Gitpod
 
 ```bash
-git clone https://github.com/seputartestnet/Swisstronik_incentivized_Task2
+git clone https://github.com/seputartestnet/Swisstronik2.git
 ```
 
 ```
